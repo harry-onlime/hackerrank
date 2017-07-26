@@ -6,7 +6,7 @@
 //  Copyright © 2017年 haosha.wang. All rights reserved.
 //  https://www.hackerrank.com/challenges/between-two-sets
 
-#include "BetweenTwoSets.hpp"
+#include "Implementation.h"
 #include "common.hpp"
 
 int gcd(int a, int b) {
