@@ -3,6 +3,8 @@
 - ### [Save the Prisoner](#Save-the-Prisoner)
 ***
 
+
+
 <a id="Between-Two-Sets"></a>
 ### [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets)
 分析：该题可以分解为求集合A的LCM（Least Common Multiple）和集合B的GCD（Greatest Common Divisor)，也即最小公倍数和最大公约数：
@@ -24,8 +26,16 @@ int getTotalX(vector < int > a, vector < int > b){
 }
 ```
 
+
+
 <a id="Save-the-Prisoner"> </a>
 ### [Save the Prisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem)
 分析：该题比较简单，但有两处陷阱：
 1. N和M的数量级达到了10的9次方，要使用64位数据结构
 2. 当求模运算返回0时，即为第N位
+```cpp
+I64 saveThePrisoner(I64 n, I64 m, I64 s){
+    I64 mod = (m+s-1) % n;
+    return 0 == mod ? n : mod;
+}
+```
