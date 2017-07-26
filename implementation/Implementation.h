@@ -13,4 +13,6 @@ void BetweenTwoSets();
 
 void SavethePrisoner();
 
+void CircularArrayRotation();
+
 #endif /* Implementation_h */

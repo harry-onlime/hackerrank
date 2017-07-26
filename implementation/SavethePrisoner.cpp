@@ -4,7 +4,7 @@
 //
 //  Created by haosha.wang on 2017/7/26.
 //  Copyright © 2017年 haosha.wang. All rights reserved.
-//
+//  https://www.hackerrank.com/challenges/save-the-prisoner
 
 #include "common.hpp"
 #include "Implementation.h"
