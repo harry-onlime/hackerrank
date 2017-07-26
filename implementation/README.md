@@ -46,9 +46,9 @@ I64 saveThePrisoner(I64 n, I64 m, I64 s){
 <a id="Circular-Array-Rotation"></a>
 ### [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem)
 此题检查条件和约束条件比较宽松，editor的解法是O(n)级别的，实际上是可以O(1)实现：
-1. 首先计算经过k次右移，数组的第一个元素所对应的index到哪了，可以通过求模运算得之
+1. 首先计算经过k次右移，数组的第一个元素所对应的index到哪了
 > `int start = k % n`;
-2. 计算移动后的m对应的index
+2. 计算移动后的m对应的原index
 > `int shift = m - start;`
-3. 如果m < 0则加上n，应为可以把-1看成n-1，-2看成n-2，学过python的应该很容易理解；如果m >= 0，则表示移动前所在的位置
+3. 如果m < 0则加上n，因为可以把-1看成n-1，-2看成n-2，学过python的应该很容易理解；如果m >= 0，则表示移动前所在的位置
 > `int i = shift >= 0 ? shift : (n + shift);`
