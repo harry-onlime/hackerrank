@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void BetweenTwoSets();
+
 #endif /* BetweenTwoSets_hpp */
