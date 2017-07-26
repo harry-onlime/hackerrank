@@ -11,4 +11,6 @@
 
 void BetweenTwoSets();
 
+void SavethePrisoner();
+
 #endif /* Implementation_h */
