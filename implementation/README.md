@@ -67,7 +67,7 @@ I64 saveThePrisoner(I64 n, I64 m, I64 s){
 
 
 <a id="Extra-Long-Factorials"></a>
-### Extra Long Factorials(https://www.hackerrank.com/challenges/extra-long-factorials/problem)
+### [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem)
 求阶乘，但需要解决数据超过64位数范围，实际是BigInteger的乘法问题，可以采用vector来存储BigInteger，低位索引对应到BigInteger的低位，高位索引对应高位。乘法的实现分为2个步骤：
 1. 由低至高逐位相乘，计算进位和余数
 ```cpp
