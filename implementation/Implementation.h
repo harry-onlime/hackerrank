@@ -17,4 +17,6 @@ void CircularArrayRotation();
 
 void AppendAndDelete();
 
+void ExtraLongFactorials();
+
 #endif /* Implementation_h */

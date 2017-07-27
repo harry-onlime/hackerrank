@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
     SavethePrisoner();
     CircularArrayRotation();
     AppendAndDelete();
+    ExtraLongFactorials();
     
     return 0;
 }

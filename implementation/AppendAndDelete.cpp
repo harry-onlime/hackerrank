@@ -4,7 +4,7 @@
 //
 //  Created by haosha.wang on 2017/7/27.
 //  Copyright © 2017年 haosha.wang. All rights reserved.
-//
+//  https://www.hackerrank.com/challenges/append-and-delete
 
 #include "common.hpp"
 #include "Implementation.h"
