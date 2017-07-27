@@ -15,4 +15,6 @@ void SavethePrisoner();
 
 void CircularArrayRotation();
 
+void AppendAndDelete();
+
 #endif /* Implementation_h */

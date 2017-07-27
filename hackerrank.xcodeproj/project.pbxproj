@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		465B83611F2591AC00F5F740 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 465B835F1F2591AC00F5F740 /* common.cpp */; };
 		4694D2581F25923C000FFB52 /* BetweenTwoSets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2561F25923C000FFB52 /* BetweenTwoSets.cpp */; };
+		4694D25D1F28834F000FFB52 /* SavethePrisoner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D25B1F28834F000FFB52 /* SavethePrisoner.cpp */; };
+		4694D25F1F28B008000FFB52 /* CircularArrayRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D25E1F28B008000FFB52 /* CircularArrayRotation.cpp */; };
+		4694D2671F29F285000FFB52 /* AppendAndDelete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2661F29F285000FFB52 /* AppendAndDelete.cpp */; };
 		46BE5A7E1F258E63004FA000 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BE5A7D1F258E63004FA000 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +31,17 @@
 		465B835F1F2591AC00F5F740 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
 		465B83601F2591AC00F5F740 /* common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = common.hpp; sourceTree = "<group>"; };
 		4694D2561F25923C000FFB52 /* BetweenTwoSets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BetweenTwoSets.cpp; sourceTree = "<group>"; };
-		4694D2571F25923C000FFB52 /* BetweenTwoSets.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BetweenTwoSets.hpp; sourceTree = "<group>"; };
+		4694D25A1F28662C000FFB52 /* Implementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Implementation.h; sourceTree = "<group>"; };
+		4694D25B1F28834F000FFB52 /* SavethePrisoner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SavethePrisoner.cpp; sourceTree = "<group>"; };
+		4694D25E1F28B008000FFB52 /* CircularArrayRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircularArrayRotation.cpp; sourceTree = "<group>"; };
+		4694D2601F297614000FFB52 /* BetweenTwoSets01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BetweenTwoSets01.txt; sourceTree = "<group>"; };
+		4694D2611F297614000FFB52 /* CircularArrayRotation00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CircularArrayRotation00.txt; sourceTree = "<group>"; };
+		4694D2621F297614000FFB52 /* SavethePrisoner00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SavethePrisoner00.txt; sourceTree = "<group>"; };
+		4694D2631F297614000FFB52 /* SavethePrisoner01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SavethePrisoner01.txt; sourceTree = "<group>"; };
+		4694D2641F297614000FFB52 /* BetweenTwoSets00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BetweenTwoSets00.txt; sourceTree = "<group>"; };
+		4694D2651F297614000FFB52 /* BetweenTwoSets02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BetweenTwoSets02.txt; sourceTree = "<group>"; };
+		4694D2661F29F285000FFB52 /* AppendAndDelete.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppendAndDelete.cpp; sourceTree = "<group>"; };
+		4694D2681F29F851000FFB52 /* AppendAndDelete00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppendAndDelete00.txt; sourceTree = "<group>"; };
 		46BE5A7A1F258E63004FA000 /* hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BE5A7D1F258E63004FA000 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,8 +60,11 @@
 		465B83651F2591CF00F5F740 /* implementation */ = {
 			isa = PBXGroup;
 			children = (
+				4694D25A1F28662C000FFB52 /* Implementation.h */,
 				4694D2561F25923C000FFB52 /* BetweenTwoSets.cpp */,
-				4694D2571F25923C000FFB52 /* BetweenTwoSets.hpp */,
+				4694D25B1F28834F000FFB52 /* SavethePrisoner.cpp */,
+				4694D25E1F28B008000FFB52 /* CircularArrayRotation.cpp */,
+				4694D2661F29F285000FFB52 /* AppendAndDelete.cpp */,
 			);
 			name = implementation;
 			path = /Users/haosha/code/hackerrank/implementation;
@@ -57,6 +73,13 @@
 		4694D2591F284684000FFB52 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				4694D2681F29F851000FFB52 /* AppendAndDelete00.txt */,
+				4694D2601F297614000FFB52 /* BetweenTwoSets01.txt */,
+				4694D2611F297614000FFB52 /* CircularArrayRotation00.txt */,
+				4694D2621F297614000FFB52 /* SavethePrisoner00.txt */,
+				4694D2631F297614000FFB52 /* SavethePrisoner01.txt */,
+				4694D2641F297614000FFB52 /* BetweenTwoSets00.txt */,
+				4694D2651F297614000FFB52 /* BetweenTwoSets02.txt */,
 			);
 			name = assets;
 			path = /Users/haosha/code/hackerrank/assets;
@@ -149,6 +172,9 @@
 			files = (
 				465B83611F2591AC00F5F740 /* common.cpp in Sources */,
 				46BE5A7E1F258E63004FA000 /* main.cpp in Sources */,
+				4694D2671F29F285000FFB52 /* AppendAndDelete.cpp in Sources */,
+				4694D25F1F28B008000FFB52 /* CircularArrayRotation.cpp in Sources */,
+				4694D25D1F28834F000FFB52 /* SavethePrisoner.cpp in Sources */,
 				4694D2581F25923C000FFB52 /* BetweenTwoSets.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

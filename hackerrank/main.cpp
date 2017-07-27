@@ -8,12 +8,15 @@
 
 #include <iostream>
 #include "common.hpp"
-#include "BetweenTwoSets.hpp"
+#include "Implementation.h"
 
 int main(int argc, const char * argv[]) {
     TimeProfile tp;
     
     BetweenTwoSets();
+    SavethePrisoner();
+    CircularArrayRotation();
+    AppendAndDelete();
     
     return 0;
 }

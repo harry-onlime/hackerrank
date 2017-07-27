@@ -56,6 +56,7 @@ a ^= b; \
 b = a ^ b; \
 a = a ^ b; \
 }
+#define sz(x) (int)x.size()
 
 class Cin2File {
 public:
