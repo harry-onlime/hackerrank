@@ -2,6 +2,7 @@
 - ### [Between Two Sets](#Between-Two-Sets)
 - ### [Save the Prisoner](#Save-the-Prisoner)
 - ### [Circular Array Rotation](#Circular-Array-Rotation)
+- ### [Append And Delete](#Append-And-Delete)
 ***
 
 
@@ -52,3 +53,16 @@ I64 saveThePrisoner(I64 n, I64 m, I64 s){
 > `int shift = m - start;`
 3. 如果m < 0则加上n，因为可以把-1看成n-1，-2看成n-2，学过python的应该很容易理解；如果m >= 0，则表示移动前所在的位置
 > `int i = shift >= 0 ? shift : (n + shift);`
+
+
+
+<a id="Append-And-Delete"></a>
+### [Append And Delete](https://www.hackerrank.com/challenges/append-and-delete/problem)
+解决此题的思路可从考虑k和s，t的长度之间的关系开始：
+1. k >= s + t，显然可以满足题目要求
+2. s == t， 显然任何k都可以满足要求
+3. (s + t) > k >= (s + t - 2*cpl(s, t))，cpl指的是s和t的公共前缀长度，令：
+> diff = s + t - 2*cpl(s, t)
+那么就要考虑diff和k之间的奇偶性，相同则满足，不相同则不满足
+
+
