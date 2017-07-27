@@ -3,6 +3,7 @@
 - ### [Save the Prisoner](#Save-the-Prisoner)
 - ### [Circular Array Rotation](#Circular-Array-Rotation)
 - ### [Append And Delete](#Append-And-Delete)
+- ### [Extra Long Factorials](#Extra-Long-Factorials)
 ***
 
 
@@ -63,4 +64,27 @@ I64 saveThePrisoner(I64 n, I64 m, I64 s){
 2. s == t， 显然任何k都可以满足要求
 3. (s + t) > k >= (s + t - 2*cpl(s, t))，cpl指的是s和t的公共前缀长度，令：diff = s + t - 2*cpl(s, t)，那么就要考虑diff和k之间的**奇偶性**，相同则满足，不相同则不满足
 
+
+
+<a id="Extra-Long-Factorials"></a>
+### Extra Long Factorials(https://www.hackerrank.com/challenges/extra-long-factorials/problem)
+求阶乘，但需要解决数据超过64位数范围，实际是BigInteger的乘法问题，可以采用vector来存储BigInteger，低位索引对应到BigInteger的低位，高位索引对应高位。乘法的实现分为2个步骤：
+1. 由低至高逐位相乘，计算进位和余数
+```cpp
+rep(0, k, j) {
+    result[j] *= i;
+    result[j] += carry;
+    carry = result[j]/10;
+    result[j] %= 10;
+}
+```
+2. 向更高位进位
+```cpp
+while(carry) {
+    result[k] = carry;
+    carry = result[k]/10;
+    result[k] %= 10;
+    k++;
+}
+```
 
