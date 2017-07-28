@@ -2,8 +2,9 @@
 - ### [Between Two Sets](#Between-Two-Sets)
 - ### [Save the Prisoner](#Save-the-Prisoner)
 - ### [Circular Array Rotation](#Circular-Array-Rotation)
-- ### [Append And Delete](#Append-And-Delete)
+- ### [Append and Delete](#Append-And-Delete)
 - ### [Extra Long Factorials](#Extra-Long-Factorials)
+- ### [Sherlock and Squares](#Sherlock-and-Squares)
 ***
 
 
@@ -58,7 +59,7 @@ I64 saveThePrisoner(I64 n, I64 m, I64 s){
 
 
 <a id="Append-And-Delete"></a>
-### [Append And Delete](https://www.hackerrank.com/challenges/append-and-delete/problem)
+### [Append and Delete](https://www.hackerrank.com/challenges/append-and-delete/problem)
 解决此题的思路可从考虑k和s，t的长度之间的关系开始：
 1. k >= s + t，显然可以满足题目要求
 2. s == t， 显然任何k都可以满足要求
@@ -88,3 +89,11 @@ while(carry) {
 }
 ```
 
+
+
+<a id="Extra-Long-Factorials"></a>
+### [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares/problem)
+求a，b（b>a）两个整数间的完全平方数，可考虑x（完全平方数）满足区间范围:
+> **ceil(sqrt(a)) <= x <= floor(sqrt(b))**
+
+那么，floor(sqrt(b)) - ceil(sqrt(a)) + 1即为该区间内完全平方数个数（整数个），由于ceil操作包含一个整数被减去，所以结尾+1
