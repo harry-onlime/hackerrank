@@ -91,7 +91,7 @@ while(carry) {
 
 
 
-<a id="Extra-Long-Factorials"></a>
+<a id="Sherlock-and-Squares"></a>
 ### [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares/problem)
 求a，b（b>a）两个整数间的完全平方数，可考虑x（完全平方数）满足区间范围:
 > **ceil(sqrt(a)) <= x <= floor(sqrt(b))**
