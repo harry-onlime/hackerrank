@@ -13,6 +13,7 @@
 		4694D25F1F28B008000FFB52 /* CircularArrayRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D25E1F28B008000FFB52 /* CircularArrayRotation.cpp */; };
 		4694D2671F29F285000FFB52 /* AppendAndDelete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2661F29F285000FFB52 /* AppendAndDelete.cpp */; };
 		4694D26A1F2A1232000FFB52 /* ExtraLongFactorials.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2691F2A1232000FFB52 /* ExtraLongFactorials.cpp */; };
+		4694D26D1F2AD708000FFB52 /* SherlockAndSquares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D26C1F2AD708000FFB52 /* SherlockAndSquares.cpp */; };
 		46BE5A7E1F258E63004FA000 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BE5A7D1F258E63004FA000 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,8 @@
 		4694D2681F29F851000FFB52 /* AppendAndDelete00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppendAndDelete00.txt; sourceTree = "<group>"; };
 		4694D2691F2A1232000FFB52 /* ExtraLongFactorials.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExtraLongFactorials.cpp; sourceTree = "<group>"; };
 		4694D26B1F2A12F6000FFB52 /* ExtraLongFactorials00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExtraLongFactorials00.txt; sourceTree = "<group>"; };
+		4694D26C1F2AD708000FFB52 /* SherlockAndSquares.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SherlockAndSquares.cpp; sourceTree = "<group>"; };
+		4694D26E1F2AD78A000FFB52 /* SherlockAndSquares00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SherlockAndSquares00.txt; sourceTree = "<group>"; };
 		46BE5A7A1F258E63004FA000 /* hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BE5A7D1F258E63004FA000 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +72,7 @@
 				4694D25E1F28B008000FFB52 /* CircularArrayRotation.cpp */,
 				4694D2661F29F285000FFB52 /* AppendAndDelete.cpp */,
 				4694D2691F2A1232000FFB52 /* ExtraLongFactorials.cpp */,
+				4694D26C1F2AD708000FFB52 /* SherlockAndSquares.cpp */,
 			);
 			name = implementation;
 			path = /Users/haosha/code/hackerrank/implementation;
@@ -77,6 +81,7 @@
 		4694D2591F284684000FFB52 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				4694D26E1F2AD78A000FFB52 /* SherlockAndSquares00.txt */,
 				4694D26B1F2A12F6000FFB52 /* ExtraLongFactorials00.txt */,
 				4694D2681F29F851000FFB52 /* AppendAndDelete00.txt */,
 				4694D2601F297614000FFB52 /* BetweenTwoSets01.txt */,
@@ -176,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				465B83611F2591AC00F5F740 /* common.cpp in Sources */,
+				4694D26D1F2AD708000FFB52 /* SherlockAndSquares.cpp in Sources */,
 				46BE5A7E1F258E63004FA000 /* main.cpp in Sources */,
 				4694D2671F29F285000FFB52 /* AppendAndDelete.cpp in Sources */,
 				4694D26A1F2A1232000FFB52 /* ExtraLongFactorials.cpp in Sources */,

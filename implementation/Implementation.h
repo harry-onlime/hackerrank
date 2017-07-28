@@ -19,4 +19,6 @@ void AppendAndDelete();
 
 void ExtraLongFactorials();
 
+void SherlockAndSquares();
+
 #endif /* Implementation_h */

@@ -18,6 +18,7 @@ int main(int argc, const char * argv[]) {
     CircularArrayRotation();
     AppendAndDelete();
     ExtraLongFactorials();
+    SherlockAndSquares();
     
     return 0;
 }
