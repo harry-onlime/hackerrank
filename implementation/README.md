@@ -97,7 +97,7 @@ while(carry) {
 求a，b（b>a）两个整数间的完全平方数，可考虑x（完全平方数）满足区间范围:
 > **ceil(sqrt(a)) <= x <= floor(sqrt(b))**
 
-那么，floor(sqrt(b)) - ceil(sqrt(a)) + 1即为该区间内完全平方数个数（整数个），由于ceil操作包含一个整数被减去，所以结尾+1
+那么，floor(sqrt(b)) - ceil(sqrt(a)) + 1即为该区间内完全平方数个数（整数个），由于ceil操作包含一个整数被减去，所以最后需要加上个1
 
 
 
