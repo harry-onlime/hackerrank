@@ -6,6 +6,7 @@
 - ### [Extra Long Factorials](#Extra-Long-Factorials)
 - ### [Sherlock and Squares](#Sherlock-and-Squares)
 - ### [Non-Divisible Subset](#Non-Divisible-Subset)
+- ### [Picking Numbers](#Picking-Numbers)
 ***
 
 
@@ -132,3 +133,19 @@ repe(0, k/2, i)
     ans += max(m[i], m[k-i]);
 ```
 
+
+
+<a id="Picking-Numbers"></a>
+### [Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers)
+由条件任意两数（0 < X < 100）之差小于等于1可知符合条件的X一定是相邻的两个数（或一个数），那么我们可以通过统计两两相邻数的数量解决：
+```cpp
+vi m(100, 0);
+for(int a_i = 0;a_i < n;a_i++){
+    int a;
+    cin >> a;
+    m[a]++;
+}
+int max_cnt = 0;
+rep(1, 99, i)
+    max_cnt = max(max_cnt, m[i]+m[i+1]);
+```
