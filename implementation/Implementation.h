@@ -23,4 +23,6 @@ void SherlockAndSquares();
 
 void NonDivisibleSubset();
 
+void PickingNumbers();
+
 #endif /* Implementation_h */

@@ -20,6 +20,7 @@ int main(int argc, const char * argv[]) {
     ExtraLongFactorials();
     SherlockAndSquares();
     NonDivisibleSubset();
+    PickingNumbers();
     
     return 0;
 }
