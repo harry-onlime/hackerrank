@@ -2,8 +2,8 @@
 //  Implementation.h
 //  hackerrank
 //
-//  Created by haosha.wang on 2017/7/26.
-//  Copyright © 2017年 haosha.wang. All rights reserved.
+//  Created by harry.wang on 2017/7/26.
+//  Copyright © 2017年 harry.wang. All rights reserved.
 //
 
 #ifndef Implementation_h
