@@ -103,3 +103,32 @@ while(carry) {
 
 <a id="Non-Divisible-Subset"></a>
 ### [Non-Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset/problem)
+此题可通过模运算的性质：
+**(a + b) % k = (a % k + b % k) % k**
+
+推导出对于S中任意的两个数a，b之和如果能被k整除，那么下述结论成立:
+
+**a % k + b % k = k** 
+> Tip: 可用反证法证明
+
+实现中使用一个数组（k<=100）保存S中每个元素的模：
+```cpp
+forv(s, n_i) {
+        cin >> s[n_i];
+        m[s[n_i]%k]++;
+    }
+```
+需要注意两个模重叠的情况：
+1. 当模为0时
+2. 当k为偶数，模为k／2时
+
+以上两种情况中任意两个数组合都可以被k整除，所以只取1即可（如果有的话），其他的模值取对应的大数即可：
+```cpp
+m[0] = m[0] ? 1 : 0;
+if(0 == k % 2)
+    m[k/2] = m[k/2] ? 1 : 0;
+int ans = 0;
+repe(0, k/2, i)
+    ans += max(m[i], m[k-i]);
+```
+
