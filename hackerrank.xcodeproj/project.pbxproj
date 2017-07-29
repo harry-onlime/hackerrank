@@ -53,6 +53,7 @@
 		4694D2711F2C5E9F000FFB52 /* NonDivisibleSubset00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NonDivisibleSubset00.txt; sourceTree = "<group>"; };
 		4694D2721F2C7C70000FFB52 /* PickingNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PickingNumbers.cpp; sourceTree = "<group>"; };
 		4694D2741F2C7D37000FFB52 /* Implementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Implementation.h; sourceTree = "<group>"; };
+		4694D2771F2C808F000FFB52 /* PickingNumbers00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PickingNumbers00.txt; sourceTree = "<group>"; };
 		46BE5A7A1F258E63004FA000 /* hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BE5A7D1F258E63004FA000 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +89,7 @@
 		4694D2591F284684000FFB52 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				4694D2771F2C808F000FFB52 /* PickingNumbers00.txt */,
 				4694D2711F2C5E9F000FFB52 /* NonDivisibleSubset00.txt */,
 				4694D26E1F2AD78A000FFB52 /* SherlockAndSquares00.txt */,
 				4694D26B1F2A12F6000FFB52 /* ExtraLongFactorials00.txt */,
