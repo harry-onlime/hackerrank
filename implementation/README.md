@@ -5,6 +5,7 @@
 - ### [Append and Delete](#Append-And-Delete)
 - ### [Extra Long Factorials](#Extra-Long-Factorials)
 - ### [Sherlock and Squares](#Sherlock-and-Squares)
+- ### [Non-Divisible Subset](#Non-Divisible-Subset)
 ***
 
 
@@ -97,3 +98,8 @@ while(carry) {
 > **ceil(sqrt(a)) <= x <= floor(sqrt(b))**
 
 那么，floor(sqrt(b)) - ceil(sqrt(a)) + 1即为该区间内完全平方数个数（整数个），由于ceil操作包含一个整数被减去，所以结尾+1
+
+
+
+<a id="Non-Divisible-Subset"></a>
+### [Non-Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset/problem)
