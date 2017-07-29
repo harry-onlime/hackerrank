@@ -21,4 +21,6 @@ void ExtraLongFactorials();
 
 void SherlockAndSquares();
 
+void NonDivisibleSubset();
+
 #endif /* Implementation_h */

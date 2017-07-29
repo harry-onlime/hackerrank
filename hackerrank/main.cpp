@@ -19,6 +19,7 @@ int main(int argc, const char * argv[]) {
     AppendAndDelete();
     ExtraLongFactorials();
     SherlockAndSquares();
+    NonDivisibleSubset();
     
     return 0;
 }
