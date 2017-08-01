@@ -7,6 +7,7 @@
 - ### [Sherlock and Squares](#Sherlock-and-Squares)
 - ### [Non-Divisible Subset](#Non-Divisible-Subset)
 - ### [Picking Numbers](#Picking-Numbers)
+- ### [Bigger is Greater](#Bigger-is-Greater)
 ***
 
 
@@ -148,4 +149,37 @@ for(int a_i = 0;a_i < n;a_i++){
 int max_cnt = 0;
 rep(1, 99, i)
     max_cnt = max(max_cnt, m[i]+m[i+1]);
+```
+
+
+
+<a id="Bigger-is-Greater"></a>
+### [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater/problem)
+此题是实现nextPermutation的具体算法，该算法可用来快速求全排列：
+1. 从排列的末端找到第一个逆序（降序排列），令逆序排列首位的索引为I，如果I为0，那么该排列已为最大排列
+```cpp
+int i = sz(s) - 1;
+while(i > 0 && s[i-1] >= s[i])
+    i--;
+if(0 == i) {
+    cout << "no answer" << endl;
+    continue;
+}
+```
+2. 在逆序排列中找出恰好大于（最小）I-1的元素J，交换I，J元素
+```cpp
+int j = sz(s) - 1;
+while(s[j] <= s[i-1])
+    j--;
+SWAP(s[i-1], s[j]);
+
+```
+3. reverse逆序序列，即得nextPermutation
+```cpp
+j = sz(s) - 1;
+while(i < j) {
+    SWAP(s[i], s[j]);
+    i++;
+    j--;
+}
 ```
