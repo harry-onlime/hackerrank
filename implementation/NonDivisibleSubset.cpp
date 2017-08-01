@@ -4,7 +4,7 @@
 //
 //  Created by harry.wang on 2017/7/29.
 //  Copyright © 2017年 harry.wang. All rights reserved.
-//
+//  https://www.hackerrank.com/challenges/non-divisible-subset/problem
 
 #include "common.hpp"
 #include "Implementation.h"

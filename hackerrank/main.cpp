@@ -21,6 +21,7 @@ int main(int argc, const char * argv[]) {
     SherlockAndSquares();
     NonDivisibleSubset();
     PickingNumbers();
+    BiggerIsGreater();
     
     return 0;
 }

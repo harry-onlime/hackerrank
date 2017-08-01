@@ -25,4 +25,6 @@ void NonDivisibleSubset();
 
 void PickingNumbers();
 
+void BiggerIsGreater();
+
 #endif /* Implementation_h */
