@@ -237,7 +237,7 @@ Pi | n=2 | n=3 | n=4 | n=5
 
 可得：
 
-**Pi = a\*(i-1) + b\*(n-i) *WHEN* a!=b**
+**Pi = a\*(i-1) + b\*(n-i) *WHEN a != b***
 
-**Pi = a\*(n-1) *WHEN* a == b**
+**Pi = a\*(n-1) *WHEN a == b***
 
