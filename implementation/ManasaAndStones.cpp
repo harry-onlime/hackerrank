@@ -23,7 +23,7 @@ void ManasaAndStones() {
         }
         else {
             repe(1, n, i)
-            cout << (a*(i-1) + b*(n-i)) << " ";
+                cout << (a*(i-1) + b*(n-i)) << " ";
             cout << endl;
         }
     }
