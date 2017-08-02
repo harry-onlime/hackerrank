@@ -189,3 +189,34 @@ while(i < j) {
 
 <a id="Flatland-Space-Stations"></a>
 ### [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations/problem)
+由题意可知，城市c[i]的距离可表示为：**min(c[i-1] + 1, c[i+1] + 1)**
+
+那么可通过正向，反向遍历计算得出每个c[i]的距离，取最大值即可：
+1. 以-1作为占位符，表示无限远，0表示空间站
+```cpp
+vi c(n, -1);
+for(int c_i = 0;c_i < m;c_i++){
+    int station;
+    cin >> station;
+    c[station] = 0;
+}
+```
+2. 正向计算，空间站不需要计算，还排除掉c[i-1]为-1的（前面还没有空间站）
+```cpp
+rep(1, n, i) {
+    if(c[i-1] != -1 && c[i] != 0)
+        c[i] = c[i-1] + 1;
+}
+```
+3. 反向计算，若当前不为-1（正向有值），取较小的，反之直接取c[i+1] + 1
+```cpp
+int max_distance = -1;
+for(int i=n-1; i>=0; i--) {
+    int distance = c[i];
+    if(i < n-1) {
+        distance = distance != -1 ? min(distance, c[i+1] + 1) : c[i+1] + 1;
+        c[i] = distance;
+    }
+    max_distance = max(max_distance, distance);
+}
+```
