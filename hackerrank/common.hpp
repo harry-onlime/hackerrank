@@ -45,7 +45,9 @@ using namespace std;
 #define forv(v, i) for (int i = 0; i < v.size(); i++)
 #define forl(l, i) for (int i = 0; i < l; i++)
 #define rep(init, len, i) for (int i = init; i < len; i++)
+#define rrep(init, len, i) for (int i = init; i > len; i--)
 #define repe(init, len, i) for (int i = init; i <= len; i++)
+#define rrepe(init, len, i) for (int i = init; i <= len; i--)
 typedef long long I64;
 #define vl vector<I64>
 #define vvi vector<vector<int>>

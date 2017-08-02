@@ -23,6 +23,7 @@ int main(int argc, const char * argv[]) {
     PickingNumbers();
     BiggerIsGreater();
     FlatlandSpaceStations();
+    ManasaAndStones();
     
     return 0;
 }

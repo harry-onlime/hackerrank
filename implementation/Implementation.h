@@ -29,4 +29,6 @@ void BiggerIsGreater();
 
 void FlatlandSpaceStations();
 
+void ManasaAndStones();
+
 #endif /* Implementation_h */
