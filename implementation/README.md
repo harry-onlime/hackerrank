@@ -9,6 +9,7 @@
 - ### [Picking Numbers](#Picking-Numbers)
 - ### [Bigger is Greater](#Bigger-is-Greater)
 - ### [Flatland Space Stations](#Flatland-Space-Stations)
+- ### [Manasa and Stones](#Manasa-and-Stones)
 ***
 
 
@@ -220,3 +221,23 @@ for(int i=n-1; i>=0; i--) {
     max_distance = max(max_distance, distance);
 }
 ```
+
+
+<a id="Manasa-and-Stones"></a>
+### [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones/problem)
+通过观察排列i和n之间的关系：
+ 
+i | n=2 | n=3 | n=4 | n=5
+-- | --- | --- | --- | ---
+1 | a | aa | aaa | aaaa
+2 | b | ab | aab | aaab
+3 | | bb | abb | aabb
+4 | | | bbb | abbb
+5 | | | | bbbb
+
+可得：
+
+**Pi = a\*(i-1) + b\*(n-i) *WHEN* a!=b**
+
+**Pi = a\*(n-1) *WHEN* a == b**
+
