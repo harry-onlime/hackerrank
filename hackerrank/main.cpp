@@ -22,6 +22,7 @@ int main(int argc, const char * argv[]) {
     NonDivisibleSubset();
     PickingNumbers();
     BiggerIsGreater();
+    FlatlandSpaceStations();
     
     return 0;
 }

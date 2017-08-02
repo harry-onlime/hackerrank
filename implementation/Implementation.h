@@ -27,4 +27,6 @@ void PickingNumbers();
 
 void BiggerIsGreater();
 
+void FlatlandSpaceStations();
+
 #endif /* Implementation_h */

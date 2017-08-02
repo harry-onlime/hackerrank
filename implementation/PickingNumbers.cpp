@@ -3,7 +3,7 @@
 //  hackerrank
 //
 //  Created by harry.wang on 2017/7/29.
-//  Copyright © 2017年 haosha.wang. All rights reserved.
+//  Copyright © 2017年 harry.wang. All rights reserved.
 //  https://www.hackerrank.com/challenges/picking-numbers
 
 #include "common.hpp"
