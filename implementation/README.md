@@ -227,7 +227,7 @@ for(int i=n-1; i>=0; i--) {
 ### [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones/problem)
 通过观察排列i和n之间的关系：
  
-i | n=2 | n=3 | n=4 | n=5
+Pi | n=2 | n=3 | n=4 | n=5
 -- | --- | --- | --- | ---
 1 | a | aa | aaa | aaaa
 2 | b | ab | aab | aaab
