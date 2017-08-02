@@ -7,6 +7,8 @@
 - ### [Sherlock and Squares](#Sherlock-and-Squares)
 - ### [Non-Divisible Subset](#Non-Divisible-Subset)
 - ### [Picking Numbers](#Picking-Numbers)
+- ### [Bigger is Greater](#Bigger-is-Greater)
+- ### [Flatland Space Stations](#Flatland-Space-Stations)
 ***
 
 
@@ -148,4 +150,73 @@ for(int a_i = 0;a_i < n;a_i++){
 int max_cnt = 0;
 rep(1, 99, i)
     max_cnt = max(max_cnt, m[i]+m[i+1]);
+```
+
+
+
+<a id="Bigger-is-Greater"></a>
+### [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater/problem)
+此题是实现nextPermutation的具体算法，该算法可用来快速求全排列：
+1. 从排列的末端找到第一个逆序（降序排列），令逆序排列首位的索引为I，如果I为0，那么该排列已为最大排列
+```cpp
+int i = sz(s) - 1;
+while(i > 0 && s[i-1] >= s[i])
+    i--;
+if(0 == i) {
+    cout << "no answer" << endl;
+    continue;
+}
+```
+2. 在逆序排列中找出恰好大于（最小）I-1的元素J，交换I，J元素
+```cpp
+int j = sz(s) - 1;
+while(s[j] <= s[i-1])
+    j--;
+SWAP(s[i-1], s[j]);
+
+```
+3. reverse逆序序列，即得nextPermutation
+```cpp
+j = sz(s) - 1;
+while(i < j) {
+    SWAP(s[i], s[j]);
+    i++;
+    j--;
+}
+```
+
+
+
+<a id="Flatland-Space-Stations"></a>
+### [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations/problem)
+由题意可知，城市c[i]的距离可表示为：**min(c[i-1] + 1, c[i+1] + 1)**
+
+那么可通过正向，反向遍历计算得出每个c[i]的距离，取最大值即可：
+1. 以-1作为占位符，表示无限远，0表示空间站
+```cpp
+vi c(n, -1);
+for(int c_i = 0;c_i < m;c_i++){
+    int station;
+    cin >> station;
+    c[station] = 0;
+}
+```
+2. 正向计算，空间站不需要计算，还需排除掉c[i-1]为-1的（前面还没有空间站）
+```cpp
+rep(1, n, i) {
+    if(c[i-1] != -1 && c[i] != 0)
+        c[i] = c[i-1] + 1;
+}
+```
+3. 反向计算，若当前不为-1（正向有值），取较小的，反之直接取c[i+1] + 1
+```cpp
+int max_distance = -1;
+for(int i=n-1; i>=0; i--) {
+    int distance = c[i];
+    if(i < n-1) {
+        distance = distance != -1 ? min(distance, c[i+1] + 1) : c[i+1] + 1;
+        c[i] = distance;
+    }
+    max_distance = max(max_distance, distance);
+}
 ```
