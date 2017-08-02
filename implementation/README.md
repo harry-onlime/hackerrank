@@ -8,6 +8,7 @@
 - ### [Non-Divisible Subset](#Non-Divisible-Subset)
 - ### [Picking Numbers](#Picking-Numbers)
 - ### [Bigger is Greater](#Bigger-is-Greater)
+- ### [Flatland Space Stations](#Flatland-Space-Stations)
 ***
 
 
@@ -183,3 +184,8 @@ while(i < j) {
     j--;
 }
 ```
+
+
+
+<a id="Flatland-Space-Stations"></a>
+### [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations/problem)
