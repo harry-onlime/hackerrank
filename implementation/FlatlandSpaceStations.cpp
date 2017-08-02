@@ -22,7 +22,7 @@ void FlatlandSpaceStations() {
         c[station] = 0;
     }
     rep(1, n, i) {
-        if(c[i-1] >= 0 && c[i] != 0)
+        if(c[i-1] != -1 && c[i] != 0)
             c[i] = c[i-1] + 1;
     }
     int max_distance = -1;
