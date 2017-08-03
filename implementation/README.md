@@ -10,6 +10,7 @@
 - ### [Bigger is Greater](#Bigger-is-Greater)
 - ### [Flatland Space Stations](#Flatland-Space-Stations)
 - ### [Manasa and Stones](#Manasa-and-Stones)
+- ### [Strange Counter](#Strange-Counter)
 ***
 
 
@@ -225,9 +226,9 @@ for(int i=n-1; i>=0; i--) {
 
 <a id="Manasa-and-Stones"></a>
 ### [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones/problem)
-通过观察排列i和n之间的关系：
+通过观察排列Pi和n之间的关系：
  
-i | n=2 | n=3 | n=4 | n=5
+Pi | n=2 | n=3 | n=4 | n=5
 -- | --- | --- | --- | ---
 1 | a | aa | aaa | aaaa
 2 | b | ab | aab | aaab
@@ -237,7 +238,43 @@ i | n=2 | n=3 | n=4 | n=5
 
 可得：
 
-**Pi = a\*(i-1) + b\*(n-i) *WHEN* a!=b**
+**Pi = a\*(i-1) + b\*(n-i) *WHEN a != b***
 
-**Pi = a\*(n-1) *WHEN* a == b**
+**Pi = a\*(n-1) *WHEN a == b***
 
+
+
+<a id="Strange-Counter"></a>
+### [Strange Counter](https://www.hackerrank.com/challenges/strange-code)
+设Ti为时间，Ri为轮换组次，Vi为值，观察下表：
+
+Ti | Ri | Vi
+-- | -- | --
+1 | 0 | 3
+2 | 0 | 2
+3 | 0 | 1
+4 | 1 | 6
+5 | 1 | 5
+... | ... | ...
+10 | 2 | 12
+11 | 2 | 11
+... | ... | ...
+21 | 2 | 1
+22 | 3 | 24
+... | ... | ...
+
+可知，每r次轮换的对应第一个值的v0和t0的关系:
+
+**v0 = 3\*pow(2, r)**
+
+**t0 = v0 - 2**
+
+取对数可得: 
+
+**r = LOG(t/3) *WHEN t%3 == 0***
+
+**r = LOG(t/3 + 1) *WHEN t%3 > 0***
+
+最终可求得v: 
+
+**v = v0 - (t - t0)**
