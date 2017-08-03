@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
     BiggerIsGreater();
     FlatlandSpaceStations();
     ManasaAndStones();
+    StrangeCounter();
     
     return 0;
 }

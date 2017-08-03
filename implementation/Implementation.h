@@ -31,4 +31,6 @@ void FlatlandSpaceStations();
 
 void ManasaAndStones();
 
+void StrangeCounter();
+
 #endif /* Implementation_h */
