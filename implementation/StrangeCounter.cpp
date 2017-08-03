@@ -28,6 +28,7 @@ void StrangeCounter() {
     I64 t;
     cin >> t;
     I64 r = div2(div3(t));
-    I64 tr0 = 3*pow(2, r) - 2;
-    cout << (3*(I64)pow(2, r) - (t - tr0)) << endl;
+    I64 v0 = 3*pow(2, r);
+    I64 t0 = v0 - 2;
+    cout << (v0 - (t - t0)) << endl;
 }
