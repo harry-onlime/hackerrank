@@ -10,6 +10,7 @@
 - ### [Bigger is Greater](#Bigger-is-Greater)
 - ### [Flatland Space Stations](#Flatland-Space-Stations)
 - ### [Manasa and Stones](#Manasa-and-Stones)
+- ### [Strange Counter](#Strange-Counter)
 ***
 
 
@@ -241,3 +242,25 @@ Pi | n=2 | n=3 | n=4 | n=5
 
 **Pi = a\*(n-1) *WHEN a == b***
 
+
+
+<a id="Strange-Counter"></a>
+### [Strange Counter](https://www.hackerrank.com/challenges/strange-code)
+设Ti为时间，Ri为轮换组次，Vi为值，观察下表：
+
+Ti | Ri | Vi
+-- | -- | --
+1 | 0 | 3
+2 | 0 | 2
+3 | 0 | 1
+4 | 1 | 6
+5 | 1 | 5
+... | ... | ...
+10 | 2 | 12
+11 | 2 | 11
+... | ... | ...
+21 | 2 | 1
+22 | 3 | 24
+... | ... | ...
+
+可知，只要通过Ti求的Ri
