@@ -11,6 +11,7 @@
 - ### [Flatland Space Stations](#Flatland-Space-Stations)
 - ### [Manasa and Stones](#Manasa-and-Stones)
 - ### [Strange Counter](#Strange-Counter)
+- ### [Absolute Permutation](#Absolute-Permutation)
 ***
 
 
@@ -278,3 +279,19 @@ Ti | Ri | Vi
 最终可求得v: 
 
 **v = v0 - (t - t0)**
+
+
+
+<a id="Absolute-Permutationr"></a>
+### [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation/problem)
+看下表:
+
+K | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
+-- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --
+k=1 | 2 | 1 | 4 | 3 | 6 | 5 | 8 | 7 | 10 | 9 | 12 | 11
+k=2 | 3 | 4 | 1 | 2 | 7 | 8 | 5 | 6 | 11 | 12 | 9 | 10
+k=3 | 4 | 5 | 6 | 1 | 2 | 3 | 10 | 11 | 12 | 7 | 8 | 9
+
+可见每隔2k个距离反折k个序列即为所得，可归纳为：
+1. N必须为偶数，奇数无法反折
+2. N % k必需为0，否则无法反折
