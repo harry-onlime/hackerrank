@@ -25,6 +25,7 @@ int main(int argc, const char * argv[]) {
     FlatlandSpaceStations();
     ManasaAndStones();
     StrangeCounter();
+    AbsolutePermutation();
     
     return 0;
 }

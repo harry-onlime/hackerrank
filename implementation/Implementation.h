@@ -33,4 +33,6 @@ void ManasaAndStones();
 
 void StrangeCounter();
 
+void AbsolutePermutation();
+
 #endif /* Implementation_h */
