@@ -35,4 +35,6 @@ void StrangeCounter();
 
 void AbsolutePermutation();
 
+void LarryArray();
+
 #endif /* Implementation_h */

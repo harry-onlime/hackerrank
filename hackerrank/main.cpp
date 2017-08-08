@@ -26,6 +26,7 @@ int main(int argc, const char * argv[]) {
     ManasaAndStones();
     StrangeCounter();
     AbsolutePermutation();
+    LarryArray();
     
     return 0;
 }
