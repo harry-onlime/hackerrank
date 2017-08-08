@@ -282,7 +282,7 @@ Ti | Ri | Vi
 
 
 
-<a id="Absolute-Permutationr"></a>
+<a id="Absolute-Permutation"></a>
 ### [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation/problem)
 看表找规律:
 
