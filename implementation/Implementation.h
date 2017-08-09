@@ -37,4 +37,6 @@ void AbsolutePermutation();
 
 void LarryArray();
 
+void AlmostSorted();
+
 #endif /* Implementation_h */

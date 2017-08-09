@@ -27,6 +27,7 @@ int main(int argc, const char * argv[]) {
     StrangeCounter();
     AbsolutePermutation();
     LarryArray();
+    AlmostSorted();
     
     return 0;
 }

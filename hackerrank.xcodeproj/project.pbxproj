@@ -22,6 +22,7 @@
 		4694D2821F32F7CC000FFB52 /* StrangeCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2811F32F7CC000FFB52 /* StrangeCounter.cpp */; };
 		4694D2851F399270000FFB52 /* AbsolutePermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2841F399270000FFB52 /* AbsolutePermutation.cpp */; };
 		4694D2891F39DD01000FFB52 /* LarryArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2881F39DD01000FFB52 /* LarryArray.cpp */; };
+		4694D28C1F3B1E80000FFB52 /* AlmostSorted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D28B1F3B1E80000FFB52 /* AlmostSorted.cpp */; };
 		46BE5A7E1F258E63004FA000 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BE5A7D1F258E63004FA000 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,9 @@
 		4694D2871F39A3EA000FFB52 /* AbsolutePermutation01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AbsolutePermutation01.txt; sourceTree = "<group>"; };
 		4694D2881F39DD01000FFB52 /* LarryArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LarryArray.cpp; sourceTree = "<group>"; };
 		4694D28A1F39DDE9000FFB52 /* LarryArray00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LarryArray00.txt; sourceTree = "<group>"; };
+		4694D28B1F3B1E80000FFB52 /* AlmostSorted.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlmostSorted.cpp; sourceTree = "<group>"; };
+		4694D28D1F3B1F67000FFB52 /* AlmostSorted00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AlmostSorted00.txt; sourceTree = "<group>"; };
+		4694D28E1F3B1F67000FFB52 /* AlmostSorted01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AlmostSorted01.txt; sourceTree = "<group>"; };
 		46BE5A7A1F258E63004FA000 /* hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BE5A7D1F258E63004FA000 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +110,7 @@
 				4694D2811F32F7CC000FFB52 /* StrangeCounter.cpp */,
 				4694D2841F399270000FFB52 /* AbsolutePermutation.cpp */,
 				4694D2881F39DD01000FFB52 /* LarryArray.cpp */,
+				4694D28B1F3B1E80000FFB52 /* AlmostSorted.cpp */,
 			);
 			name = implementation;
 			path = /Users/haosha/code/hackerrank/implementation;
@@ -114,6 +119,8 @@
 		4694D2591F284684000FFB52 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				4694D28D1F3B1F67000FFB52 /* AlmostSorted00.txt */,
+				4694D28E1F3B1F67000FFB52 /* AlmostSorted01.txt */,
 				4694D28A1F39DDE9000FFB52 /* LarryArray00.txt */,
 				4694D2861F39A3EA000FFB52 /* AbsolutePermutation00.txt */,
 				4694D2871F39A3EA000FFB52 /* AbsolutePermutation01.txt */,
@@ -231,6 +238,7 @@
 				4694D2671F29F285000FFB52 /* AppendAndDelete.cpp in Sources */,
 				4694D27C1F318551000FFB52 /* FlatlandSpaceStations.cpp in Sources */,
 				4694D2891F39DD01000FFB52 /* LarryArray.cpp in Sources */,
+				4694D28C1F3B1E80000FFB52 /* AlmostSorted.cpp in Sources */,
 				4694D2851F399270000FFB52 /* AbsolutePermutation.cpp in Sources */,
 				4694D26A1F2A1232000FFB52 /* ExtraLongFactorials.cpp in Sources */,
 				4694D25F1F28B008000FFB52 /* CircularArrayRotation.cpp in Sources */,
