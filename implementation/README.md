@@ -13,6 +13,7 @@
 - ### [Strange Counter](#Strange-Counter)
 - ### [Absolute Permutation](#Absolute-Permutation)
 - ### [Larry's Array](#Larry's-Array)
+- ### [Almost Sorted](#Almost-Sorted)
 ***
 
 
@@ -319,3 +320,13 @@ k=3 | 4 | 5 | 6 | 1 | 2 | 3 | 10 | 11 | 12 | 7 | 8 | 9
 > 一个偶置换可以由恒同置换通过偶数次两个元素互换（称为对换）得到，而一个奇置换可由奇数次对换得到。
 
 我们可知一个奇排列（奇数个逆序）无法通过偶数个交换（左移）变成自然数列（排好序的），那么该题只要计算排列的奇偶性即可！
+
+
+
+<a id="Larry's-Array"></a>
+### [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted)
+该题可以先找到最左边和最右边违反排序规则的边界：l和r，然后判断(l, r)区间内是单调递增，还是单调递减来确定swap和reverse，最后通过检查[l, r]的边界条件，确定是否能最终形成有序排列
+1. l = 0 同时 r = 0，已经是有序排列
+2. 交换l和r的值，如果是reverse，还需交换l+1和r-1的值
+3. 判断l-1和r+1的值是否符合条件
+4. 判断l+1和r-1的值是否符合条件
