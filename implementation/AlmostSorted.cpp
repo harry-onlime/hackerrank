@@ -10,7 +10,7 @@
 #include "Implementation.h"
 
 void AlmostSorted() {
-    Cin2File cin2file("AlmostSorted01.txt");
+    Cin2File cin2file("AlmostSorted00.txt");
     
     int n;
     cin >> n;
@@ -64,10 +64,11 @@ void AlmostSorted() {
             cout << "no" << endl;
             return;
         }
+        cout << "yes" << endl;
         if(swap)
-            cout << "yes" << endl << "swap " << l << " " << r << endl;
+            cout << "swap " << l << " " << r << endl;
         else
-            cout << "yes" << endl << "reverse " << l << " " << r << endl;
+            cout << "reverse " << l << " " << r << endl;
     }
     else {
         cout << "no" << endl;
