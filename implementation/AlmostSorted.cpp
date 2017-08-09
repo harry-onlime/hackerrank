@@ -46,6 +46,8 @@ void AlmostSorted() {
     
     if(swap || reverse) {
         SWAP(d[l], d[r]);
+        if(reverse && !swap)
+            SWAP(d[l+1], d[r-1]);
         if(l-1 > 0 && d[l] < d[l-1]) {
             cout << "no" << endl;
             return;
@@ -54,8 +56,6 @@ void AlmostSorted() {
             cout << "no" << endl;
             return;
         }
-        if(reverse && !swap)
-            SWAP(d[l+1], d[r-1]);
         if(l+1 <= n && d[l] > d[l+1]) {
             cout << "no" << endl;
             return;
