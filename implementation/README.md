@@ -323,7 +323,7 @@ k=3 | 4 | 5 | 6 | 1 | 2 | 3 | 10 | 11 | 12 | 7 | 8 | 9
 
 
 
-<a id="Larry's-Array"></a>
+<a id="Almost-Sorted"></a>
 ### [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted)
 该题可以先找到最左边和最右边违反排序规则的边界：l和r，然后判断(l, r)区间内是单调递增，还是单调递减来确定swap和reverse，最后通过检查[l, r]的边界条件，确定是否能最终形成有序排列
 1. l = 0 同时 r = 0，已经是有序排列
