@@ -13,7 +13,7 @@ inline I64 div3(I64 n) {
     return 0 == n%3 ? n/3 : n/3 + 1;
 }
 
-int div2(I64 n) {
+int log2(I64 n) {
     int cnt = 0;
     while (n/2 >= 1) {
         n /= 2;
@@ -27,7 +27,7 @@ void StrangeCounter() {
     
     I64 t;
     cin >> t;
-    I64 r = div2(div3(t));
+    I64 r = log2(div3(t));
     I64 v0 = 3*pow(2, r);
     I64 t0 = v0 - 2;
     cout << (v0 - (t - t0)) << endl;
