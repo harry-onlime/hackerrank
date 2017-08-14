@@ -7,6 +7,7 @@
 - ### [Sherlock and Squares](#Sherlock-and-Squares)
 - ### [Non-Divisible Subset](#Non-Divisible-Subset)
 - ### [Picking Numbers](#Picking-Numbers)
+- ### [Organizing Containers of Balls](#Organizing-Containers-of-Balls)
 - ### [Bigger is Greater](#Bigger-is-Greater)
 - ### [Flatland Space Stations](#Flatland-Space-Stations)
 - ### [Manasa and Stones](#Manasa-and-Stones)
@@ -157,6 +158,15 @@ int max_cnt = 0;
 rep(1, 99, i)
     max_cnt = max(max_cnt, m[i]+m[i+1]);
 ```
+
+
+
+<a id="Organizing-Containers-of-Balls"></a>
+### [Organizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem)
+该题的关键在于根据题意我们知道每个容器的容量一定要和每球的类型匹配上：
+1. 分别计算容量和类型
+2. 分别排序容量和类型
+3. 比较是否一样，输出结果
 
 
 
