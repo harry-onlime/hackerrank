@@ -39,4 +39,6 @@ void LarryArray();
 
 void AlmostSorted();
 
+void QueensAttack();
+
 #endif /* Implementation_h */

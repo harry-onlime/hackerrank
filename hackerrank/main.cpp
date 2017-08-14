@@ -28,6 +28,7 @@ int main(int argc, const char * argv[]) {
     AbsolutePermutation();
     LarryArray();
     AlmostSorted();
+    QueensAttack();
     
     return 0;
 }
