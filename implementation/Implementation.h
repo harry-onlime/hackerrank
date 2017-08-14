@@ -41,4 +41,6 @@ void AlmostSorted();
 
 void QueensAttack();
 
+void OrganizingContainers();
+
 #endif /* Implementation_h */
