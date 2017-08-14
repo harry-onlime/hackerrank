@@ -14,6 +14,7 @@
 - ### [Absolute Permutation](#Absolute-Permutation)
 - ### [Larry's Array](#Larry's-Array)
 - ### [Almost Sorted](#Almost-Sorted)
+- ### [Queen's Attack II](#Queen's-Attack-II)
 ***
 
 
@@ -331,3 +332,14 @@ k=3 | 4 | 5 | 6 | 1 | 2 | 3 | 10 | 11 | 12 | 7 | 8 | 9
 2. 交换l和r的值，如果是reverse，还需交换l+1和r-1的值
 3. 判断l-1和r+1的值是否符合条件
 4. 判断l+1和r-1的值是否符合条件
+
+
+
+<a id="Queen's-Attack-II"></a>
+### [Queen's Attack II](https://www.hackerrank.com/challenges/queens-attack-2)
+该题可通过k次判断和Queen的距离求得
+1. 首先可求的Queen的最大攻击范围
+2. 计算障碍点是否在Queen的攻击线路上
+3. 计算障碍点和Queen的距离
+
+
