@@ -317,7 +317,7 @@ k=3 | 4 | 5 | 6 | 1 | 2 | 3 | 10 | 11 | 12 | 7 | 8 | 9
 
 
 <a id="Bomberman"></a>
-### [The Bomberman Gamey](https://www.hackerrank.com/challenges/bomber-man/problem)
+### [The Bomberman Game](https://www.hackerrank.com/challenges/bomber-man/problem)
 此题很有趣，我们先来观察一下，假设格子中有💣的情况为1，没有的情况为0
 
 1s ->
