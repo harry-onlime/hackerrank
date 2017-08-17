@@ -62,7 +62,7 @@ void Bomberman() {
     if(n > 1) {
         if(0 == n%2) {
             forl(r, r_i)
-            m[r_i].set();
+                m[r_i].set();
         }
         else {
             f(r, c, m);
