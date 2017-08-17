@@ -52,12 +52,8 @@ void Bomberman() {
     forl(r, r_i) {
         string s;
         cin >> s;
-        forl(c, c_i) {
-            if (s[c_i] == '.')
-                m[r_i][c_i] = 0;
-            else
-                m[r_i][c_i] = 1;
-        }
+        forl(c, c_i)
+            m[r_i][c_i] = s[c_i] == '.' ? 0 : 1;
     }
     if(n > 1) {
         if(0 == n%2) {
