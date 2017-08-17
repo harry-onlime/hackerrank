@@ -59,17 +59,15 @@ void Bomberman() {
                 m[r_i][c_i] = 1;
         }
     }
-    if(0 == n%2) {
-        forl(r, r_i)
-        m[r_i].set();
-    }
-    else if(n > 1) {
-        if(3 == n%4) {
-            f(r, c, m);
+    if(n > 1) {
+        if(0 == n%2) {
+            forl(r, r_i)
+            m[r_i].set();
         }
         else {
             f(r, c, m);
-            f(r, c, m);
+            if(1 == n%4)
+                f(r, c, m);
         }
     }
     output(r, c, m);
