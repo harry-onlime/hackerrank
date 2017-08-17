@@ -25,6 +25,7 @@
 		4694D28C1F3B1E80000FFB52 /* AlmostSorted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D28B1F3B1E80000FFB52 /* AlmostSorted.cpp */; };
 		4694D2901F41484C000FFB52 /* QueensAttack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D28F1F41484C000FFB52 /* QueensAttack.cpp */; };
 		4694D2931F41A1A8000FFB52 /* OrganizingContainers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2921F41A1A8000FFB52 /* OrganizingContainers.cpp */; };
+		4694D2961F458A54000FFB52 /* Bomberman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4694D2951F458A54000FFB52 /* Bomberman.cpp */; };
 		46BE5A7E1F258E63004FA000 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46BE5A7D1F258E63004FA000 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,8 @@
 		4694D2911F414958000FFB52 /* QueensAttack00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QueensAttack00.txt; sourceTree = "<group>"; };
 		4694D2921F41A1A8000FFB52 /* OrganizingContainers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrganizingContainers.cpp; sourceTree = "<group>"; };
 		4694D2941F41A23B000FFB52 /* OrganizingContainers00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrganizingContainers00.txt; sourceTree = "<group>"; };
+		4694D2951F458A54000FFB52 /* Bomberman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bomberman.cpp; sourceTree = "<group>"; };
+		4694D2971F458BB5000FFB52 /* Bomberman00.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bomberman00.txt; sourceTree = "<group>"; };
 		46BE5A7A1F258E63004FA000 /* hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BE5A7D1F258E63004FA000 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +122,7 @@
 				4694D28B1F3B1E80000FFB52 /* AlmostSorted.cpp */,
 				4694D28F1F41484C000FFB52 /* QueensAttack.cpp */,
 				4694D2921F41A1A8000FFB52 /* OrganizingContainers.cpp */,
+				4694D2951F458A54000FFB52 /* Bomberman.cpp */,
 			);
 			name = implementation;
 			path = /Users/haosha/code/hackerrank/implementation;
@@ -127,6 +131,7 @@
 		4694D2591F284684000FFB52 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				4694D2971F458BB5000FFB52 /* Bomberman00.txt */,
 				4694D2941F41A23B000FFB52 /* OrganizingContainers00.txt */,
 				4694D2911F414958000FFB52 /* QueensAttack00.txt */,
 				4694D28D1F3B1F67000FFB52 /* AlmostSorted00.txt */,
@@ -256,6 +261,7 @@
 				4694D2791F2F7E55000FFB52 /* BiggerIsGreater.cpp in Sources */,
 				4694D2901F41484C000FFB52 /* QueensAttack.cpp in Sources */,
 				4694D2701F2C5E01000FFB52 /* NonDivisibleSubset.cpp in Sources */,
+				4694D2961F458A54000FFB52 /* Bomberman.cpp in Sources */,
 				4694D25D1F28834F000FFB52 /* SavethePrisoner.cpp in Sources */,
 				4694D2581F25923C000FFB52 /* BetweenTwoSets.cpp in Sources */,
 			);

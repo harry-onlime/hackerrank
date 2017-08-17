@@ -43,4 +43,6 @@ void QueensAttack();
 
 void OrganizingContainers();
 
+void Bomberman();
+
 #endif /* Implementation_h */

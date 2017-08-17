@@ -30,6 +30,7 @@ int main(int argc, const char * argv[]) {
     AlmostSorted();
     QueensAttack();
     OrganizingContainers();
+    Bomberman();
     
     return 0;
 }
