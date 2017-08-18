@@ -13,7 +13,7 @@ void output(int r, int c, vector<bitset<200>>& m) {
     forl(r, r_i) {
         bitset<200>& bs = m[r_i];
         forl(c, c_i)
-        cout << (bs[c_i] ?  "O" : ".");
+            cout << (bs[c_i] ?  "O" : ".");
         cout << endl;
     }
 }
